@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 .common-btn{
   display:inline-block;
@@ -12,6 +13,7 @@
   font-weight: 600;
   border: none;
   border-radius: 5px;
+
   font-family: 'Inter', sans-serif;
   cursor: pointer;
   
@@ -39,4 +41,43 @@ ul li a{
   font-size: 18px;
   font-weight: 300;
   font-family: 'Inter', sans-serif;
+}
+/*hero section*/
+
+.hero{
+  background-image:url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding:0px 20px;
+
+  
+}
+.hero-content{
+    max-width: 800px;
+    margin-bottom: 45px;
+}
+.hero-content h1{
+    font-size: 64px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 25px;
+
+}
+.hero-content p{
+    font-size: 22px;
+    line-height: 1.7;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-weight:normal;
+    margin-bottom: 65px;
+}
+.second-btn{
+    margin-top: 95px;
 }
