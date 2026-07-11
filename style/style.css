@@ -76,8 +76,57 @@ ul li a{
     color: #ffffff;
     margin-bottom: 40px;
     font-weight:normal;
-    margin-bottom: 65px;
+    margin-bottom: 70px;
 }
 .second-btn{
     margin-top: 95px;
+}
+/*speakers style*/
+.speakers{
+max-width: 1300px;
+margin: 70px auto;
+
+}
+.speakers h2{
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 56px;
+  margin-bottom: 40px;
+  font-weight:700
+  color:#000102
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.card{
+    background: #ffffff;
+    border: 1px solid #E5E7EB;
+    border-radius: 15px;
+}
+
+.category{
+  color: #2563EB;
+  font-size: 600;
+  font-size: 12px;
+  font-family: 'Inter', sans-serif;
+
+}
+.text{
+  padding: 15px;
+  line-height: 25px;
+}
+.cards h3{
+  color:#0D1B2A;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+
+}
+.job-field{
+  font-family: 'Inter', sans-serif;
+  font-size:14px;
+  font-weight: 300;
 }
