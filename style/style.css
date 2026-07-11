@@ -45,8 +45,11 @@ ul li a{
 /*hero section*/
 
 .hero{
-  background-image:url("../images/banner.jpg");
-  background-repeat: no-repeat;
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+  url("../images/banner.jpg");
+
+  background-repeat: no-repeat;       
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -93,7 +96,7 @@ margin: 70px auto;
   font-size: 56px;
   margin-bottom: 40px;
   font-weight:700
-  color:#000102
+  color: #000102
 }
 .cards{
     display: grid;
@@ -129,4 +132,8 @@ margin: 70px auto;
   font-family: 'Inter', sans-serif;
   font-size:14px;
   font-weight: 300;
+}
+.card-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
