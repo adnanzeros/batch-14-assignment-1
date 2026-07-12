@@ -17,12 +17,16 @@
   font-family: 'Inter', sans-serif;
   cursor: pointer;
   transition: 0.3s;
+    border: 1px solid #2563EB;
+  border-radius: 6px;
   
 }
 .common-btn:hover{
-    background:white;
+    background: white;
   color:#2563EB;
 }
+
+
 .common-btn-2{
   width: 100%;
   padding: 14px;
