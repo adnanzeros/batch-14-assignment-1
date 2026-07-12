@@ -18,6 +18,22 @@
   cursor: pointer;
   
 }
+.common-btn-2{
+  width: 100%;
+  padding: 14px;
+  background: white;
+  color: #2563EB;
+  border: 1px solid #2563EB;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.common-btn-2:hover{
+  background: #2563EB;
+  color:#ffffff
+}
 
 .header{
   display: flex;
@@ -30,12 +46,12 @@
   
 }
 
-ul{
+.header ul{
   display: flex;
   list-style: none;
   gap: 22px;
 }
-ul li a{
+.header ul li a{
   text-decoration: none;
   color: #0D1B2A;
   font-size: 18px;
@@ -136,4 +152,122 @@ margin: 70px auto;
 .card-img{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+/* pricing section   */
+.pricing{
+  max-width: 1200px;
+  margin:100px auto;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+.pricing h2{
+  font-size:48px;
+  font-weight: 700;
+  color: #0D1B2A;
+  margin-bottom: 12px;
+}
+.subtitle{
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 60px;
+}
+.pricing-cards{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+/* standard and team */
+.p-card{
+  width: 340px;
+  background: whitesmoke;
+  border:1px solid #2563EB;
+  border-radius: 8px;
+  padding:25px;
+  text-align: left;
+  
+}
+.pro-card{
+  width: 340px;
+  background: #0F172A;
+  color:#ffffff;
+  border:1px solid #2563EB;
+  border-radius: 8px;
+  padding:25px;
+  text-align: left;
+  
+  
+}
+/* standard-team-pro */
+.plan{
+  font-size: 12px;
+  font-weight: 700px;
+  color:#6b7280;
+  margin-bottom: 10px;
+}
+.pro-card .plan{
+  color:#60A5FA;
+}
+/* price */
+.p-card h3,.pro-card h3{
+  font-size: 52px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.pro-card h3{
+  color:#77a2ff;
+}
+/* user style */
+.user{
+  font-size: 14px;
+  color:#6b7280;
+  margin-bottom: 20px;
+}
+.pro-card .user{
+  color:#60A5FA;
+}
+/* hr  */
+.p-card hr{
+  border:none;
+  margin:20px 0;
+  border-top:1px solid #2563EB;
+}
+.pro-card hr{
+  border:none;
+  margin:20px 0;
+  border-top:1px solid #2563EB;
+}
+
+/* offer menue list */
+.p-card ul, .pro-card ul{
+  padding-left:20px;
+  margin-bottom:35px;
+}
+.p-card li, .pro-card li{
+  margin-bottom: 12px;
+  font-size:15px;
+  line-height: 1;
+}
+.pro-card li{
+  color:whitesmoke;
+}
+
+/* button for pro */
+.btn-pro .common-btn-2{
+  background:#2563EB;
+  color:#ffffff;
+}
+.btn-pro .common-btn-2:hover{
+  background: #000000;
+}
+
+/* button for team */
+.btn-team .common-btn-2{
+    background:#ffffff;
+    color:#000000;
+    border: 1px solid #000000;
+}
+.btn-team .common-btn-2:hover{
+  background: #2563EB;
+  color:#ffffff;
+  border: 1px solid #2563EB;
 }
