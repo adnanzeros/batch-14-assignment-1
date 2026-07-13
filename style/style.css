@@ -120,8 +120,8 @@ margin: 70px auto;
   font-family: 'Inter', sans-serif;
   font-size: 56px;
   margin-bottom: 40px;
-  font-weight:700
-  color: #000102
+  font-weight:700;
+  color: #000102;
 }
 .cards{
     display: grid;
@@ -137,7 +137,7 @@ margin: 70px auto;
 
 .category{
   color: #2563EB;
-  font-size: 600;
+  font-weight: 600;
   font-size: 12px;
   font-family: 'Inter', sans-serif;
 
@@ -209,7 +209,7 @@ margin: 70px auto;
 /* standard-team-pro */
 .plan{
   font-size: 12px;
-  font-weight: 700px;
+  font-weight: 700;
   color:#6b7280;
   margin-bottom: 10px;
 }
@@ -326,8 +326,8 @@ margin: 70px auto;
 
 .achievement-grid{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-    gap:28px;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
 }
 
 .achievement-card{
@@ -341,7 +341,7 @@ margin: 70px auto;
 }
 
 .achievement-card::before{
-    content:"";
+
     position:absolute;
     top:0;
     left:0;
@@ -398,5 +398,35 @@ margin: 70px auto;
 .achievement-btn:hover{
     transform:translateY(-3px);
     box-shadow:0 12px 25px rgba(37,99,235,.35);
+}
+/* footer style */
+
+footer{
+    background:#0F1F33;
+    padding:30px;
+    font-family: 'Inter', sans-serif;
+}
+
+.full-footer {
+    width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer-left p{
+    color:gray;
+    font-size:14px;
+}
+
+.footer-right a{
+    text-decoration:none;
+    color:gray;
+    margin-left:20px;
+}
+
+.footer-right a:hover{
+    color:white;
 }
 
