@@ -53,7 +53,7 @@ You can also use the **Live Server** extension in VS Code for a better developme
 
 GitHub Pages is enabled for this repository. Once the Pages URL is confirmed, add it here:
 
-**Live Website:** [Add GitHub Pages URL]
+**Live Website:** https://adnanzeros.github.io/batch-14-assignment-1/
 
 ## 🔗 Repository
 
